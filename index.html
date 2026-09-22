@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+<title>Indev Web — Voxel Prototype</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<canvas id="game"></canvas>
+<div id="crosshair">+</div>
+<div id="hud">
+  <div id="status">IND​EV WEB • Modo creativo</div>
+  <div id="hotbar"></div>
+</div>
+<div id="touch">
+  <div class="pad" id="movePad"><span></span></div>
+  <div class="look" id="lookArea"></div>
+  <button id="breakBtn">⛏</button><button id="placeBtn">▣</button><button id="jumpBtn">↑</button>
+</div>
+<div id="start">
+  <h1>INDEV WEB</h1>
+  <p>Recreación jugable inspirada en la era Indev, hecha desde cero para navegador.</p>
+  <p><b>PC:</b> WASD · ratón · Espacio · clic izquierdo rompe · clic derecho coloca</p>
+  <p><b>Móvil:</b> joystick izquierdo · arrastra la derecha para mirar · botones ⛏ / ▣ / ↑</p>
+  <button id="play">JUGAR</button>
+  <small>No contiene el cliente ni archivos originales de Minecraft.</small>
+</div>
+<script src="game.js"></script>
+</body>
+</html>
